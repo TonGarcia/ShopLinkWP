@@ -9,12 +9,12 @@ services:
       - MARIADB_DATABASE=bitnami_wordpress
       - ALLOW_EMPTY_PASSWORD=yes
   wordpress:
-    image: 'docker.io/bitnami/wordpress:5-debian-10'
+    image: 'docker.io/bitnami/wordpress'
     ports:
       - '80:8080'
       - '443:8443'
     volumes:
-      - ./wordpress_data:/bitnami/wordpress
+      - 'wordpress_data:/bitnami/wordpress'
     depends_on:
       - mariadb
     environment:
