@@ -23,7 +23,7 @@
 define( 'DB_NAME', 'bitnami_wordpress' );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', 'bn_wordpress ' );
+define( 'DB_USER', 'bn_wordpress' );
 
 /** Senha do banco de dados MySQL */
 define( 'DB_PASSWORD', '' );
