@@ -71,6 +71,9 @@ ENV ALLOW_EMPTY_PASSWORD="no" \
     WORDPRESS_TABLE_PREFIX="wp_" \
     WORDPRESS_USERNAME="user"
 
+RUN apt update
+RUN apt install nano
+
 EXPOSE 8080 8443
 
 USER 1001
