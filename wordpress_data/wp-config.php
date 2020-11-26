@@ -1,1 +1,1 @@
-/bitnami/wordpress/wp-config.php
+C:/bitnami/wordpress/wp-config.php
