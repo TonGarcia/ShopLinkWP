@@ -1,0 +1,236 @@
+    1  apt-get updated
+    2  apt-get update
+    3  sudo apt-get remove docker docker-engine docker.io containerd runc
+    4  sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+    5  docker --version
+    6  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    7  sudo apt-key fingerprint 0EBFCD88
+    8  sudo apt-get install docker-ce docker-ce-cli containerd.io
+    9  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+   10  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   11  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   12  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   13  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic test"
+   14  sudo apt update
+   15  sudo apt install docker-ce
+   16  docker -v
+   17  docker pull iltongarcia/swp
+   18  nano docker-compose.yml
+   19  docker-compose up -d
+   20  apt install docker-compose
+   21  docker images
+   22  docker rmi -f b18fe1f3ae6a
+   23  docker-compose up -d
+   24  docker-compose down
+   25  docker images
+   26  docker rmi -f b18fe1f3ae6a 35fa9f65913b
+   27  ls -la
+   28  docker ps
+   29  docker images
+   30  rm -rf docker-compose.yml 
+   31  nano docker-compose.yml
+   32  docker-compose up -d
+   33  docker ps
+   34  docker exec -it 6148b74b3934 /bin/bash
+   35  docker-compose down
+   36  git clone git@github.com:TonGarcia/ShopLinkWP.git
+   37  git clone https://github.com/TonGarcia/ShopLinkWP.git
+   38  ls -la
+   39  mv ShopLinkWP wordpress
+   40  ls -la
+   41  cd wordpress/
+   42  docker-compose up -d
+   43  docker ps
+   44  docker images
+   45  docker-compose down
+   46  docker images
+   47  docker rmi -f 8405260e191a b18fe1f3ae6a
+   48  docker-compose up -d
+   49  cat docker-compose.yml 
+   50  ls -la
+   51  exit
+   52  docker ps
+   53  docker-compose down
+   54  docker p´s
+   55  docker ps
+   56  cd wordpress/
+   57  docker-compose down
+   58  cd ..
+   59  rm -rf docker-compose.yml 
+   60  cd wordpress/
+   61  docker ps
+   62  ls -la
+   63  cat wordpress_data/wp-config.php 
+   64  docker ´ps
+   65  docker ps
+   66  docker images
+   67  docker rmi -f 8405260e191a b18fe1f3ae6a   
+   68  docker-compose up -d
+   69  git pull
+   70  docker-compose down
+   71  cat wordpress_data/wp-config.php 
+   72  docker images
+   73  docker rmi -f 1b1ec9652007 8405260e191a && docker-compose up -d
+   74  docker ps
+   75  docker exect -it 70e1b5cb53ae /bin/bash
+   76  docker exec -it 70e1b5cb53ae /bin/bash
+   77  docker-compose down && docker system prune -a
+   78  cat docker-compose.yml 
+   79  ls -la
+   80  ls wordpress_data/
+   81  docker-compose up -d
+   82  docker ps
+   83  docker exec -it 4884b094e910 /bin/bash
+   84  docker-compose down && docker system prune -a
+   85  docker-compose -f docker-compose-backup.yml up
+   86  docker ps
+   87  docker ps -a
+   88  docker-compose down
+   89  docker images
+   90  docker system pruna -a
+   91  docker system prune -a
+   92  git pull
+   93  docker-compose up -f docker-compose-backup.yml -d
+   94  docker ps -a
+   95  docker-compose -f docker-compose-backup.yml up -d
+   96  docker ps
+   97  docker images
+   98  docker-compose -f docker-compose-backup.yml up -d
+   99  docker ps
+  100  rm -rf docker-compose-backup.yml 
+  101  nano docker-compose-backup.yml
+  102  docker-compose -f docker-compose-backup.yml up -d
+  103  docker ps
+  104  git add . -A
+  105  git status
+  106  docker images
+  107  docker-compose down
+  108  docker ps
+  109  docker-compose up -d
+  110  docker ps
+  111  git pull
+  112  docker-compose down
+  113  docker-compose up -d
+  114  nano wp-config.php
+  115  ls -la
+  116  nano wordpress_data/wp-config.php 
+  117  docker-compose down && docker-compose up -d
+  118  docker images
+  119  cd ../
+  120  cat docker-compose.yml
+  121  ls -la
+  122  cd wordpress/
+  123  cat docker-compose.yml
+  124  docker ps
+  125  git pull
+  126  cat docker-compose.yml
+  127  docker images
+  128  docker ps
+  129  ls -la
+  130  cd wordpress/
+  131  ls -la
+  132  docker ps
+  133  docker-compose down
+  134  docker system prune -a
+  135  git add . -A
+  136  git status
+  137  nano wordpress_data/wp-config.php 
+  138  git add . -A
+  139  git status
+  140  cd ..
+  141  rm -rf wordpress/
+  142  git clone https://github.com/TonGarcia/ShopLinkWP.git wordpress
+  143  cd wordpress/
+  144  docker-compose up -d
+  145  docker ps
+  146  docker-compose up -d
+  147  ls -la wordpress_data/
+  148  docker ps
+  149  docker images
+  150  docker-compose up -d
+  151  docker ps
+  152  docker-compose up -d && docker ps
+  153  docker logs -f 7b06231e0cba   
+  154  docker-compose down && docker system prune -a
+  155  docker-compose up -d && docker ps
+  156  docker logs -f 2dc30ede5b6f   
+  157  docker ps
+  158  git pull
+  159  history
+  160  nano docker-compose.yml 
+  161  docker-compose up -d && docker ps
+  162  docker logs -f 94032e60cf02   
+  163  docker ps
+  164  docker-compose up -d && docker ps
+  165  nano docker-compose.yml 
+  166  docker-compose down && docker ps
+  167  docker-compose up -d && docker ps
+  168  docker logs -f 83439fce1612   
+  169  docker ps
+  170  nano docker-compose.yml 
+  171  ls -la
+  172  ls wordpress_data/
+  173  ls -la wordpress_data/
+  174  rm -rf wordpress_data/.restored 
+  175  docker-compose down && docker system prune -a
+  176  docker ps
+  177  cd ..
+  178  cd wordpress/
+  179  docker-compose up -d && docker ps
+  180  docker logs -f 09f6817f4d88   
+  181  docker ps
+  182  docker-compose down
+  183  git add .-A
+  184  git add . -A
+  185  git status
+  186  cd ..
+  187  rm -rf wordpress/
+  188  history
+  189  git clone https://github.com/TonGarcia/ShopLinkWP.git wordpress
+  190  git clone https://github.com/TonGarcia/ShopLinkWP.git
+  191  docker ps
+  192  docker system prune -a
+  193  cd ShopLinkWP/
+  194  ls -la
+  195  docker-compose up -d
+  196  docker ps
+  197  docker cp -a 2e0df2206ccf:/bitnami/wordpress .
+  198  ls -la
+  199  ls -la wordpress/
+  200  rm -rf wordpress/
+  201  docker ps
+  202  docker exec -it 2e0df2206ccf /bin/bash
+  203  ls -la
+  204  docker cp -a 2e0df2206ccf:/opt/bitnami/wordpress .
+  205  ls -la wordpress/
+  206  git add . -A
+  207  rm -rf wordpress/
+  208  docker cp -a 2e0df2206ccf:/opt/bitnami/wordpress .
+  209  ls -la
+  210  mv wordpress wordpress_data
+  211  ls -la
+  212  git add . -A
+  213  git status
+  214  git commit -m 'wordpress upgraded'
+  215  git pull
+  216  git push
+  217  cat docker-compose.yml
+  218  docker images
+  219  docker ps
+  220  docker commit 2e0df2206ccf iltongarcia/swp:latest && docker push iltongarcia/swp:latest
+  221  docker commit 2e0df2206ccf iltongarcia/swp:20_35_25-11-2020 && docker push iltongarcia/swp:20_35_25-11-2020
+  222  docker login
+  223  docker commit 2e0df2206ccf iltongarcia/swp:20_35_25-11-2020 && docker push iltongarcia/swp:20_35_25-11-2020
+  224  docker images
+  225  docker tag bitnami/wordpress iltongarcia/swp:20_44-25-11-2020
+  226  docker push iltongarcia/swp:20_44-25-11-2020
+  227  docker-compose down
+  228  docker system prune -a
+  229  docker ps =a
+  230  docker ps -a
+  231  docker images
+  232  git pull
+  233  docker-compose up -d
+  234  history
+  235  ls -la
+  236  history >> history.txt
